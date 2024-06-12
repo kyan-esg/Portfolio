@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Kyan Esguerra</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Kyan Esguerra</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">こんにちは！私は</p>
+        <h1 class="title">Kyan Esguerra</h1>
+        <p class="section__text__p2">Systems Information Student</p>
+        <div class="btn-container">
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/kyan-nazarene-andres-esguerra-829498311/'"
+          />
+          <img
+            src="./assets/soundcloud.png"
+            alt="My Soundcloud profile"
+            class="icon"
+            onclick="location.href='https://soundcloud.com/kimesii'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1 fade-in">自己紹介</p>
+      <h1 class="title fade-in">About Me</h1>
+      <div class="section-container fade-in">
+        <div class="section__pic-container fade-in">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic fade-in"
+          />
+        </div>
+        <div class="about-details-container fade-in">
+          <div class="about-containers fade-in">
+            <div class="details-container fade-in">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon fade-in"
+              />
+              <h3>資格</h3>
+              <p>実用英語技能検定準１級<br />通自動車第一種運転免許<br />TOEIC公開テスト970点</p>
+            </div>
+            <div class="details-container fade-in">
+              <img
+                src="./assets/education.png"
+                alt="学歴"
+                class="icon"
+              />
+              <h3>学歴</h3>
+              <p>茨城県立結城第一高等学校<br /> 2021年卒業<br />足利大学工学部創生工学科システム情報分野<br />2025卒業見込み</p>
+            </div>
+          </div>
+          <div class="text-container fade-in">
+            <p>
+              2003年、フィリピン生まれ。父親の仕事の関係で、2016年、日本へ移住。2021年に足利大学工学部創生工学科システム情報分野システムデザインコースに入学。
+              趣味は、音楽(曲作成、ギター、ベース)、ファッション、お絵かき、映画鑑賞、車。子供の頃から、パソコンを精通していて、美術部に付属していて、WEBデザインに興味を持った。現在、趣味でフィリピン内でトップ
+              12位のYouTubeチャンネルの動画編集とサムネイル画像制作をしている。
+              <br />Born in 2003 in the Philippines, I moved to Japan in 2016 due to my father's job. In 2021, I enrolled in the System Design Course within the Systems Information Field at the Faculty of Engineering at Ashikaga University.
+
+              My hobbies include music (composition, guitar, bass), fashion, drawing, watching movies, and cars. Since childhood, I've been proficient in computers and was part of the art club, which sparked my interest in web design.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow fade-in"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1 fade-in">経験</p>
+      <h1 class="title fade-in">Experience</h1>
+      <div class="experience-details-container fade-in">
+        <div class="about-containers fade-in">
+          <div class="details-container fade-in">
+            <h2 class="experience-sub-title fade-in">Programming</h2>
+            <div class="article-container fade-in">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon fade-in"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>中級</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon fade-in"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>中級</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon fade-in"
+                />
+                <div>
+                  <h3>Postgresql</h3>
+                  <p>初級</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon fade-in"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>初級</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon fade-in"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>初級</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon fade-in"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>初級</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container fade-in">
+            <h2 class="experience-sub-title fade-in">Other</h2>
+            <div class="article-container fade-in">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon fade-in"
+                />
+                <div>
+                  <h3>Adobe Premiere Pro</h3>
+                  <p>中級</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon fade-in"
+                />
+                <div>
+                  <h3>Adobe Photoshop</h3>
+                  <p>中級</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon fade-in"
+                />
+                <div>
+                  <h3>Adobe After Effects</h3>
+                  <p>初級</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon fade-in"
+                />
+                <div>
+                  <h3>Fl Studio</h3>
+                  <p>中級</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon fade-in"
+                />
+                <div>
+                  <h3>Unity</h3>
+                  <p>初級</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-1.png"
+              alt="Java Weather App"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Java Weather App using Meteo API</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.location.href='video.html'"
+            >
+              Watch Video
+            </button>
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/kyan-esg/weather-app'"
+          >
+            Github
+          </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-4.png"
+              alt="Car Drifting Minigame"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Topdown Drifting Minigame</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.location.href='video2.html'"
+            >
+              Watch Video
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-2.png"
+              alt="Weather Website"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Weather Website using Open Weather Map API</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://kyan-weather.netlify.app/'"
+            >
+              Live Website
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-3.png"
+              alt="Dynamic Background Clock"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Dynamic Background Clock</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://kyan-clock.netlify.app/'"
+            >
+              Live Website
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+  </section>
+    <section id="contact">
+      <p class="section__text__p1 fade-in">声をかける</p>
+      <h1 class="title fade-in">Contact Me</h1>
+      <div class="contact-info-upper-container fade-in">
+        <div class="contact-info-container fade-in">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon fade-in"
+          />
+          <p><a href="mailto:nazarenekyan1@gmail.com">nazarenekyan1@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container fade-in">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon fade-in"
+          />
+          <p><a href="https://www.linkedin.com/in/kyan-nazarene-andres-esguerra-829498311/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container fade-in">
+          <ul class="nav-links fade-in">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
